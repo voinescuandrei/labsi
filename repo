@@ -1,0 +1,8 @@
+[updates-i386]
+name=Fedora $releasever - i386 - Updates
+failovermethod=priority
+#baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/$releasever/$basearch/
+mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=i386
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-i386
